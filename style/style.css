@@ -1,0 +1,115 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  .mainWrapper {
+    height: 100vh;
+    background: rgb(247, 245, 245);
+    /* font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; */
+  }
+  
+  /* style for navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 40px;
+    background-color: #fff;
+    border-bottom: 0.5px solid #e4e1e1;
+  }
+
+  .navbar .search {
+    border: none;
+    outline: none;
+    background-color: rgb(247, 245, 245);
+    padding: 10px 40px 10px 35px;
+    border-radius: 7px;
+    font-size: 15px;
+  }
+
+  .navbar .search-icon {
+    display: flex;
+  }
+  
+  .navbar .input-search i {
+    position: relative;
+    right: 258px;
+    font-size: 14px;
+  }
+
+  .navbar .input-search {
+    margin-right: 70px;
+  }
+  
+  .navbar .icons ._ab6- {
+    margin-right: 18px;
+  }
+
+  .navbar .icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .dp {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+  }
+
+  /* style for body-content */
+
+  .body-content {
+    margin: auto;
+  }
+
+  .stories-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid  #e4e1e1;
+    border-radius: 12px;
+    margin: 20px;
+    width: 35%;
+  }
+  
+  .userCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .imgWrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+  
+  .imgWrapper {
+    padding: 5px;
+    background-image: url('/images/Background\ img.png');
+    background-size: cover;
+    background-position: center;
+  }
+   
+  .userDetails .username {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 5px;
+  }
+  
+  /* @media screen and (max-width: 800px) {
+    .storiesWrapper {
+      display: none;
+    }
+  
+    .navbar {
+      display: none;
+    }
+  } */
